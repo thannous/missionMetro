@@ -1,3 +1,12 @@
+@font-face {
+    font-family:"Sierra Madre";
+    src:url("Sierra_Madre.eot?") format("eot"),
+    url("Sierra_Madre.woff") format("woff"),
+    url("Sierra_Madre.ttf") format("truetype"),
+    url("Sierra_Madre.svg#SierraMadre")
+    format("svg");font-weight:
+    normal;font-style:normal;}
+
 body {
     margin: 0;
 }
@@ -27,4 +36,20 @@ div[data-role="content"] {
 .scrollable {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+}
+h2{
+    font-family: "Sierra Madre";
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#counter{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul#list{
+    list-style: none;
 }

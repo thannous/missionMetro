@@ -10,15 +10,18 @@
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
 
+
     <!-- Fix for scrolling on iOS prior to iOS 6 -->
     <style type="text/css">
+
         .scrollable > * {
             -webkit-transform: translateZ(0px);
         }
     </style>
-
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
     <!-- Referencing iOS specific PhoneGap JS -->
-    <script type="text/javascript" src="scripts/libs/cordova/cordova-ios-2.1.0.js"></script>
+    <script type="text/javascript" src="scripts/libs/cordova/cordova-ios.js"></script>
 
     <script data-main="scripts/main" src="scripts/libs/require/require.js"></script>
 </head>

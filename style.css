@@ -1,0 +1,2420 @@
+/* ============================== */
+/* =Template = */
+/* ============================== */
+.button_bottom{
+	width: 130px;
+	font-size: 22px;
+	padding-bottom: 5px;
+	color: #164502;
+	background: #71BF2B;
+	border-radius: 7px;
+	background: #5FA32A;
+	text-shadow: none;
+	background: #71BD31;
+	background: -moz-linear-gradient(top, #71BD31 0%, #96DB60 31%, #75CB2A 63%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#71BD31), color-stop(31%,#96DB60), color-stop(63%,#75CB2A));
+	background: -webkit-linear-gradient(top, #71BD31 0%,#96DB60 31%,#75CB2A 63%);
+	background: -o-linear-gradient(top, #71BD31 0%,#96DB60 31%,#75CB2A 63%);
+	background: -ms-linear-gradient(top, #71BD31 0%,#96DB60 31%,#75CB2A 63%);
+	background: linear-gradient(to bottom, #71BD31 0%,#96DB60 31%,#75CB2A 63%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bd31', endColorstr='#75cb2a',GradientType=0 );
+}
+
+.mtop15{
+	margin-top:15px;
+}
+.grey {
+	background: #746f6c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #746f6c 0%, #9e9694 31%, #746f6c 63%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#746f6c), color-stop(31%,#9e9694), color-stop(63%,#746f6c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #746f6c 0%,#9e9694 31%,#746f6c 63%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #746f6c 0%,#9e9694 31%,#746f6c 63%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #746f6c 0%,#9e9694 31%,#746f6c 63%); /* IE10+ */
+	background: linear-gradient(to bottom,  #746f6c 0%,#9e9694 31%,#746f6c 63%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#746f6c', endColorstr='#746f6c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.aligncenter, .alignnone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+
+.ui-body-c, .ui-overlay-c {
+    background: none repeat scroll 0 0 #FFFFFF;
+
+}
+
+.important{
+	font-weight: bold;
+}
+
+
+.btn-betad {
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 3px 0 inset;
+	display: block;
+	height: 40px;
+	width: 84px;
+	text-align: center;
+	margin:7px auto;
+}
+.ui-body-c .ui-link.btn-betad {
+	text-shadow: none;
+    line-height: 41px;
+    padding: 0 15px
+}
+.btn-green{
+	background: url("image/btn-green.png") repeat-x scroll 0 0 transparent;
+}
+.ui-body-c .ui-link.btn-green {
+	color:#164502;
+}
+.btn-grey{
+	background: url("image/btn-grey.png") repeat-x scroll 0 0 transparent;
+}
+.ui-body-c .ui-link.btn-grey {
+	color:#ffffff;
+}
+
+.btn-inline.btn-betad{
+	display:inline-block;
+	margin:4px auto;
+}
+
+html.ui-mobile body.ui-mobile-viewport div.ui-page div#bar {
+    background-color: #504C49;
+    color: white;
+    display: block;
+    font-weight: normal;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    text-shadow: none;
+    -moz-box-shadow: 0px 1px 5px 0px #656565;
+	-webkit-box-shadow: 0px 1px 5px 0px #656565;
+	-o-box-shadow: 0px 1px 5px 0px #656565;
+	box-shadow: 0px 1px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+	text-transform: uppercase;
+}
+p{
+text-transform: normal;
+margin-top: 20px;
+}
+
+.ui-btn-up-c {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 0px solid #CCCCCC;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.ui-body-c .ui-link {
+    color: #2489CE;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* ============================== */
+/* = Header = */
+/* ============================== */
+
+.ui-icon-betadvisor-home {
+    background:transparent; /* or none */
+	background-image: url("js/images/home.png");
+	-moz-background-size: 25px 24px;
+    -o-background-size: 25px 24px;
+    -webkit-background-size: 25px 24px;
+    background-size: 25px 24px;
+	width: 24px;
+    height: 24px;
+	-moz-border-radius: 0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+
+.ui-icon-betadvisor-setting {
+    background:transparent; /* or none */
+	background-image: url("js/images/setting.png");
+	-moz-background-size: 25px 24px;
+    -o-background-size: 25px 24px;
+    -webkit-background-size: 25px 24px;
+    background-size: 25px 24px;
+	width: 24px;
+    height: 24px;
+	-moz-border-radius: 0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+
+
+.ui-btn-corner-all {
+-moz-border-radius: 0em /*{global-radii-buttons}*/;
+-webkit-border-radius: 0em /*{global-radii-buttons}*/;
+border-radius: 0em /*{global-radii-buttons}*/;
+}
+
+.ui-btn-inner {
+border-top: 0px solid white;
+}
+
+.ui-bar-a .ui-shadow, .ui-bar-b .ui-shadow, .ui-bar-c .ui-shadow {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+background: none;
+}
+
+.ui-btn-icon-notext {
+    height: 31px;
+    width: 31px;
+}
+
+.ui-btn-icon-notext .ui-btn-inner .ui-icon {
+    float: left;
+    margin: 5px 1px 2px 3px;
+}
+
+
+div.ui-header div#bar {
+    background-color: #504C49;
+    box-shadow: 0 1px 5px 0 #656565;
+    color: white;
+    display: block;
+    font-weight: normal;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+
+.ui-btn-hover-c {
+
+border: 0;
+}
+
+/* ============================== */
+/* = Content = */
+/* ============================== */
+
+
+div.ui-content p:not(.ui-li-aside) {
+    font-family: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+ui-grid-a {
+	margin-top:10px;
+}
+
+div.ui-content ul p:not(.ui-li-aside) {
+	text-align: left;
+}
+/* ============================== */
+/* = Footer = */
+/* ============================== */
+.ui-btn-up-a:visited, .ui-btn-up-a a.ui-link-inherit {
+	color: #AAAAAA /*{a-bup-color}*/;
+}
+.ui-btn-active:visited, .ui-btn-active:hover, .ui-btn-active a.ui-link-inherit {
+	color:#71bf2b;
+	background:none;
+}
+
+.ui-btn-up-a {
+    background: linear-gradient(#2D2D2D, #2D2D2D) repeat scroll 0 0 #2D2D2D;
+    border: medium none;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #111111;
+    text-transform: none;
+}
+
+.ui-btn-hover-a, .ui-btn-down-a:visited, .ui-btn-down-a:hover, .ui-btn-down-a a.ui-link-inherit{
+
+    border: 0px solid #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #111111;
+    font-size: 15px;
+
+}
+.ui-btn-active {
+	background:none;
+	color:#71bf2b;
+}
+
+div.ui-header div.logo img{
+    margin: 0 auto;
+    padding: 9px 0 12px;
+    width: 160px;
+}
+div.ui-header div.title {
+	width: 197px;
+	margin: 0 auto;
+}
+
+.ui-icon-betadvisor-mail {
+    background:transparent; /* or none */
+	background-image: url("js/images/mail-navbar.png");
+	-moz-background-size: 29px 24px;
+    -o-background-size: 29px 24px;
+    -webkit-background-size: 29px 24px;
+    background-size: 29px 24px;
+	
+}
+.ui-btn-active .ui-icon-betadvisor-mail{
+	background-image: url("js/images/mail-navbar-active.png");
+}
+.ui-icon-betadvisor-graph {
+    background:transparent; /* or none */
+	background-image: url("js/images/graph-navbar.png");
+	-moz-background-size: 27px 23px;
+    -o-background-size: 27px 23px;
+    -webkit-background-size: 27px 23pxx;
+    background-size: 27px 23px;
+}
+.ui-btn-active .ui-icon-betadvisor-graph{
+	background-image: url("js/images/graph-navbar-active.png");
+}
+
+.ui-icon-betadvisor-cart {
+    background:transparent; /* or none */
+	background-image: url("js/images/cart-navbar.png");
+	-moz-background-size: 27px 24px;
+    -o-background-size: 27px 24px;
+    -webkit-background-size: 27px 24px;
+    background-size: 27px 24px;
+}
+.ui-btn-active .ui-icon-betadvisor-cart{
+	background-image: url("js/images/cart-navbar-active.png");
+}
+
+.ui-icon-betadvisor-help {
+    background:transparent; /* or none */
+	background-image: url("js/images/help-navbar.png");
+	-moz-background-size: 29px 24px;
+    -o-background-size: 29px 24px;
+    -webkit-background-size: 29px 24px;
+    background-size: 29px 24px;
+}
+.ui-btn-active .ui-icon-betadvisor-help{
+	background-image: url("js/images/help-navbar-active.png");
+}
+
+.ui-icon-betadvisor-search {
+    background:transparent; /* or none */
+	background-image: url("js/images/search-navbar.png");
+	-moz-background-size: 24px 24px;
+    -o-background-size: 24px 24px;
+    -webkit-background-size: 24px 24px;
+    background-size: 24px 24px;
+}
+.ui-btn-active .ui-icon-betadvisor-search{
+	background-image: url("js/images/search-navbar-active.png");
+}
+.ui-footer .ui-icon {
+    width: 24px;
+    height: 24px;
+	-moz-border-radius: 0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+
+}
+
+.ui-icon-shadow {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ui-btn-icon-top .ui-btn-inner .ui-icon, .ui-btn-icon-bottom .ui-btn-inner .ui-icon {
+margin-left: -16px;
+}
+
+.ui-footer .ui-btn-inner, .ui-mini .ui-btn-inner {
+    font-size: 53%;
+}
+
+.ui-btn-text {
+    top: 4px;
+}
+
+
+
+
+
+@charset "utf-8";
+/*////////////////////// Reset ///////////////////*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+hr.break {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #fff;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    display: block;
+    height: 1px;
+    margin: 17px auto;
+    width: 80px;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*////////////////////// Généralité ///////////////////*/
+body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: green;
+    background-image: url("header.jpg");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 48%;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+a{
+	text-decoration:none;
+}
+
+.clear{
+	clear: both;
+}
+
+/*----------------
+	  Header
+-----------------*/
+h1 {
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 1.3em;
+    margin: 52px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*----------------
+	  Content
+-----------------*/
+#content{
+	width: 465px;
+	height: 700px;
+	margin: 80px auto;
+	background: url(iphone.png) no-repeat;
+	text-align: center;
+	position: relative;
+}
+iframe{
+	width: 303px;
+	height: 456px;
+	position: absolute;
+	top: 124px;
+	left: 76px;
+}
+
+
+/* ============================== */
+/* =  BUTTON = */
+/* ============================== */
+/*
+.ui-btn-up-c {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+}*/
+
+.ui-btn-corner-all {
+    border-radius: 3px 3px 3px 3px;
+}
+
+.ui-shadow {
+    box-shadow: 0 1px 4px #58AC3E;
+}
+
+.ui-focus, .ui-btn:focus {
+    box-shadow: none;
+}
+
+.ui-btn-text {
+    top: 1px;
+}
+
+
+/* ============================== */
+/* =  INPUT = */
+/* ============================== */
+
+.ui-input-text.ui-focus, .ui-input-search.ui-focus {
+    box-shadow: none;
+}
+
+.ui-shadow-inset {
+    box-shadow: none;
+}
+
+.ui-corner-all {
+    border-radius: 3px 3px 3px 3px;
+}
+
+.ui-field-contain, fieldset.ui-field-contain {
+    border-width: 0;
+}
+
+.ui-shadow {
+    box-shadow: none;
+}
+
+span.ui-btn-text span {
+    font-size: 12px;
+}
+
+
+
+/* ============================== */
+/* =  PAGE 1 SPLASH SCREEN = */
+/* ============================== */
+
+#splash {
+	background-color:#1d1d1c;
+}
+
+#splash .logo {
+    background-image: url("image/splash.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 390px auto;
+    display: block;
+    height: 452px;
+    width: 100%;
+}
+
+
+
+
+/* ============================== */
+/* =  PAGE 2 LAUNCH = */
+/* ============================== */
+
+
+#first01 .ui-header .ui-navbar li:last-child .ui-btn.button_bottom, #first01 .ui-footer .ui-navbar li:last-child .ui-btn.button_bottom, #first01 .ui-header .ui-navbar .ui-grid-duo .ui-block-b .ui-btn.button_bottom, #first01 .ui-footer .ui-navbar .ui-grid-duo .ui-block-b .ui-btn.button_bottom {
+	margin:10px auto;
+}
+
+
+div#first01.ui-page div.ui-content p {
+    font-family: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    margin-bottom: 24px;
+    margin-top: 44px;
+    text-align: center;
+}
+
+div#first01.ui-page div.ui-content a.bet-button {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 140px;
+}
+
+div#first01.ui-page div.ui-content li.listed {
+    background: url("image/line-bot.png") no-repeat scroll center bottom transparent;
+    list-style: none outside none;
+    padding: 2px 0 37px;
+}
+
+div#first01.ui-page div.ui-content div.button-login a.bet-button  {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #EEEEEE;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #8A8886 /*{c-bup-background-end}*/));
+    background-image: -webkit-linear-gradient( #9EE485 /*{c-bup-background-start}*/, #6FC64E /*{c-bup-background-end}*/);
+    background-image: -moz-linear-gradient( #9EE485 /*{c-bup-background-start}*/, #6FC64E /*{c-bup-background-end}*/);
+    background-image: -ms-linear-gradient( #9EE485 /*{c-bup-background-start}*/, #6FC64E /*{c-bup-background-end}*/);
+    background-image: -o-linear-gradient( #9EE485 /*{c-bup-background-start}*/, #6FC64E /*{c-bup-background-end}*/);
+    background-image: linear-gradient( #9EE485 /*{c-bup-background-start}*/, #6FC64E /*{c-bup-background-end}*/);    
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+}
+
+
+
+div#first01.ui-page div.ui-content div.button-singup a.bet-button {
+    background: linear-gradient(#8A8886, #585653) repeat scroll 0 0 #EEEEEE;
+    background: #9EE485 /*{c-bup-background-color}*/;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #8A8886 /*{c-bup-background-end}*/));
+    background-image: -webkit-linear-gradient( #8A8886 /*{c-bup-background-start}*/, #585653 /*{c-bup-background-end}*/);
+    background-image: -moz-linear-gradient( #8A8886 /*{c-bup-background-start}*/, #585653 /*{c-bup-background-end}*/);
+    background-image: -ms-linear-gradient( #8A8886 /*{c-bup-background-start}*/, #585653 /*{c-bup-background-end}*/);
+    background-image: -o-linear-gradient( #8A8886 /*{c-bup-background-start}*/, #585653 /*{c-bup-background-end}*/);
+    background-image: linear-gradient( #8A8886 /*{c-bup-background-start}*/, #585653 /*{c-bup-background-end}*/);
+    border: 1px solid #4E4A48;
+    box-shadow: 0 1px 4px #4E4A48;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+
+
+
+/* ============================== */
+/* =  PAGE 3 LOGIN = */
+/* ============================== */
+
+#ctcus{
+	clear: both;
+	margin: auto;
+	float: none;
+	text-align: center;
+	width:130px;
+}
+#ctcus a {
+	line-height: 15px;
+	color:white;
+	margin-bottom:5px;
+}
+
+#dblbutn{
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
+}
+
+#dblbutn a {
+	clear: both;
+	display: inline-block;
+	line-height:15px;
+	color:white;
+	margin:0 2px;
+}
+
+.forgot.ui-link:visited, .forgot.ui-link {
+    clear: both;
+    color: #504C49;
+    float: right;
+    font-size: 13px;
+    margin-right: 66px;
+    margin-top: 13px;
+}
+
+
+
+
+
+div#login.ui-page div.ui-content div.ui-field-contain label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 0.3em;
+    width: 90px;
+}
+
+div#login.ui-page div.ui-content div.page_login {
+    margin-top: 23px;
+}
+
+div.page_login div.ui-field-contain input#password.ui-input-text ,div.page_login div.ui-field-contain input#email.ui-input-text {
+    margin: 0;
+    width: 65%;
+}
+
+
+
+
+
+
+div#login.ui-page div.ui-content div.page_login div.login_button a.bet-button
+{
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+}
+
+
+
+/* FOOTER LOGIN */
+
+
+/* sign up button */
+
+div#login.ui-page div.ui-footer div.ui-navbar ul.ui-grid-a li#dblbutn.ui-block-a a#signup_button.button_bottom {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+a#signup_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    font-size: 12px;
+    top: 4px;
+}
+
+/* skip button */
+
+a#skip_button.button_bottom {
+    background: linear-gradient(#8A8886, #585653) repeat scroll 0 0 #8A8886;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #8A8886 ), to( #585653 ));
+    background-image: -webkit-linear-gradient( #8A8886 , #585653 );
+    background-image: -moz-linear-gradient( #8A8886 , #585653 );
+    background-image: -ms-linear-gradient( #8A8886 , #585653 );
+    background-image: -o-linear-gradient( #8A8886 , #585653 );
+    background-image: linear-gradient( #8A8886 , #585653 ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+
+a#skip_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    top: 5px;
+}
+
+
+
+/* contact us button */
+
+a#contactus_button.button_bottom {
+    background: linear-gradient(#8A8886, #585653) repeat scroll 0 0 #8A8886;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #8A8886 ), to( #585653 ));
+    background-image: -webkit-linear-gradient( #8A8886 , #585653 );
+    background-image: -moz-linear-gradient( #8A8886 , #585653 );
+    background-image: -ms-linear-gradient( #8A8886 , #585653 );
+    background-image: -o-linear-gradient( #8A8886 , #585653 );
+    background-image: linear-gradient( #8A8886 , #585653 ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+
+a#contactus_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    top: 5px;
+}
+
+
+
+/*
+div#login.ui-page div.ui-footer div.ui-navbar ul.ui-grid-a li#dblbutn.ui-block-a a#skip_button.button_bottom {
+    background: linear-gradient(to bottom, #746F6C 0%, #9E9694 31%, #746F6C 63%) repeat scroll 0 0 transparent;
+    border-radius: 7px 7px 7px 7px;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 5px;
+    text-shadow: none;
+    width: 130px;
+}
+
+div#login.ui-page div.ui-footer div.ui-navbar ul.ui-grid-a li#ctcus.ui-block-b a#contactus_button.button_bottom {
+    background: linear-gradient(to bottom, #746F6C 0%, #9E9694 31%, #746F6C 63%) repeat scroll 0 0 transparent;
+    border-radius: 7px 7px 7px 7px;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 5px;
+    text-shadow: none;
+    width: 130px;
+}
+
+*/
+
+
+div.page_login div.login_button a.bet-button {
+    margin-top: 35px;
+}
+
+
+
+/* ============================== */
+/* =  PAGE 4 SIGNUP = */
+/* ============================== */
+
+div.page_signup {
+    margin-top: 6px;
+}
+
+#signup .ui-field-contain .ui-select {
+    clear: none;
+    float: left;
+    width: 24%;
+}
+
+label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 0.3em;
+}
+
+span.ui-btn-text span {
+    font-size: 8px;
+}
+
+.ui-select .ui-btn-icon-right .ui-icon {
+    right: 2px;
+}
+
+#signup .ui-btn-text {
+    top: 2px;
+    width: 31px;
+}
+
+.ui-select .ui-btn-icon-right .ui-btn-inner, .ui-select .ui-li-has-count .ui-btn-inner {
+    height: 21px;
+    padding: 7px;
+}
+
+label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 5px 0 0.3em;
+}
+
+div#signup.ui-page div.ui-content div.ui-field-contain input#email.ui-input-text {
+    width: 65%;
+}
+
+div#signup.ui-page div.ui-content div.ui-field-contain input#password.ui-input-text {
+    width: 65%;
+}
+
+div#signup.ui-page div.ui-content div.ui-field-contain label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 5px 0 0.3em;
+    width: 79px;
+}
+
+#tel {
+    float: left;
+    height: 37px;
+    width: 40%;
+}
+
+#signup .ui-field-contain .ui-select {
+    clear: none;
+    float: left;
+    margin-right: 3px;
+    width: 23%;
+}
+
+
+#signup .ui-btn-text {
+top: 2px;
+}
+
+div#signup.ui-page div.ui-content div.phoni p.mtop15 {
+    font-family: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+
+.ui-field-contain, fieldset.ui-field-contain {
+    border-width: 0 0 0px;
+    margin: 0;
+    overflow: visible;
+    padding: 7px 0;
+}
+
+div#signup.ui-page div.ui-content div.login_button a.bet-button {
+
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+}
+
+div.page_signup div.phoni div.ui-select div.ui-btn span.ui-btn-inner span.ui-btn-text span {
+    font-size: 9px;
+    font-weight: lighter;
+}
+
+/* Login button */
+
+
+div#signup.ui-page div.ui-footer div.ui-navbar ul.ui-grid-a li#dblbutn.ui-block-a a#login_button.button_bottom {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+
+
+a#login_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    font-size: 12px;
+    top: 5px;
+}
+
+div.page_signup div.phoni div.ui-select {
+    border: 1px solid #AAAAAA;
+    clear: none;
+    float: left;
+    margin-right: 3px;
+    width: 23%;
+}
+/* ============================== */
+/* = Page Forget css  = */
+/* ============================== */
+
+
+
+
+div#forgot.ui-page div.ui-content div.ui-field-contain label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 0.3em;
+    width: 90px;
+}
+
+div#forgot.ui-page div.ui-content div.page_login {
+    margin-top: 23px;
+}
+
+div.page_forgot div.ui-field-contain input#password.ui-input-text ,div.page_login div.ui-field-contain input#email.ui-input-text {
+    margin: 0;
+    width: 65%;
+}
+
+
+
+
+
+
+div#forgot.ui-page div.ui-content div.page_forgot div.login_button a.bet-button
+{
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+}
+
+/* FOOTER LOGIN */
+
+
+/* sign up button */
+
+div#forgot.ui-page div.ui-footer div.ui-navbar ul.ui-grid-a li#dblbutn.ui-block-a a#signup_button.button_bottom {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+a#signup_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    font-size: 12px;
+    top: 4px;
+}
+
+/* skip button */
+
+a#skip_button.button_bottom {
+    background: linear-gradient(#8A8886, #585653) repeat scroll 0 0 #8A8886;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #8A8886 ), to( #585653 ));
+    background-image: -webkit-linear-gradient( #8A8886 , #585653 );
+    background-image: -moz-linear-gradient( #8A8886 , #585653 );
+    background-image: -ms-linear-gradient( #8A8886 , #585653 );
+    background-image: -o-linear-gradient( #8A8886 , #585653 );
+    background-image: linear-gradient( #8A8886 , #585653 ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+
+a#skip_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    top: 5px;
+}
+
+
+
+/* contact us button */
+
+a#contactus_button.button_bottom {
+    background: linear-gradient(#8A8886, #585653) repeat scroll 0 0 #8A8886;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #8A8886 ), to( #585653 ));
+    background-image: -webkit-linear-gradient( #8A8886 , #585653 );
+    background-image: -moz-linear-gradient( #8A8886 , #585653 );
+    background-image: -ms-linear-gradient( #8A8886 , #585653 );
+    background-image: -o-linear-gradient( #8A8886 , #585653 );
+    background-image: linear-gradient( #8A8886 , #585653 ); 
+    border: 1px none;
+    box-shadow: none;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    height: 32px;
+    }
+
+
+a#contactus_button.button_bottom span.ui-btn-inner span.ui-btn-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    top: 5px;
+}
+
+
+
+/* ============================== */
+/* = Page Help Css = */
+/* ============================== */
+
+
+/* ============================== */
+/* = Page Searchtips css  = */
+/* ============================== */
+
+div#searchtips.ui-page div.ui-content div.ui-field-contain label.ui-input-text {
+    display: block;
+    float: none;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 5px 0 0.3em;
+    width: auto;
+}
+
+div#searchtips.ui-page div.ui-content div.ui-btn {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E );     border: 1px solid #58AC3E;
+    box-shadow: 0 1px 4px #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+/* ============================== */
+/* = Page Home css  = */
+/* ============================== */
+
+#home div.ui-block-a img.aligncenter, #home div.ui-block-b img.aligncenter {
+    margin: 3px 0;
+    width: 97%;
+}
+
+
+#home .container {
+    padding: 15px 15px 15px;
+    margin-top: 50px;
+}
+
+/* ============================== */
+/* =  Page OFFERS css = */
+/* ============================== */
+
+.price {
+    font-size: 16px;
+}
+
+
+
+
+ul.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit p.ui-li-aside {
+    float: right;
+    margin: 2.3em 0;
+    text-align: right;
+    width: 50%;
+}
+
+div#offers.ui-page div.ui-content ul.ui-listview li.ui-btn:hover {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 0px ;
+    padding: 0;
+}
+
+div#offers.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+/* ============================== */
+/* =  Page Regular Tipsters css = */
+/* ============================== */
+
+
+.image-legend1 {
+    margin: 0 auto 20px;
+    width: 300px;
+}
+.image-legend1 p {
+    font-size: 11px !important;
+    max-width: 60px;
+}
+.image-legend1 span {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding: 6px;
+}
+.image-legend1 .overlay {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/sprite-sports.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    right: 0;
+    top: 10px;
+    width: 25px;
+}
+
+
+.image-legend{
+	float: left;
+}
+.image-legend p{
+	margin: 7px 0;
+	margin-right: 0;
+	max-width: 60px;
+	font-size: 11px!important;
+}
+.image-legend .overlay {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/sprite-sports.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.overlay.football {
+	background-position: 0px -175px;
+    background-size: 45px auto;
+}
+.overlay.footballUs {
+    background-position: -2px -96px;
+    background-size: 39px auto;
+}
+.overlay.baseball {
+    background-position: 1px 2px;
+    background-size: 45px auto;
+}
+.overlay.horse {
+    background-position: -11px -254px;
+    background-size: 38px auto;
+}
+.overlay.tennis {
+   background-position: 2px -384px;
+   background-size: 40px auto;
+}
+.overlay.rugby {
+    background-position: -5px -345px;
+    background-size: 42px auto;
+}
+.overlay.hockey {
+    background-position: -1px -213px;
+    background-size: 40px auto;
+}
+.overlay.basketball {
+    background-position: 2px -54px;
+    background-size: 44px auto;
+}
+
+.title{
+	font-size: 18px;
+	display: inline-block;
+}
+.green{
+	color: #6ab42c;
+}
+.red{
+	color: #cd4242;
+}
+.inner{
+	display: block;
+	font-size: 13px;
+}
+.inner a{
+	text-decoration: underline;
+	color: #504c49!important;
+}
+.text{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+}
+.text p{
+	margin: 3px 0;
+}
+.title .stars {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/rating-stars.png");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 12px;
+    width: 42px;
+}
+.one-star {
+	background-position: -6px -6px;
+}
+.two-stars {
+	background-position: -6px -23px;
+}
+.three-stars {
+	background-position: -6px -40px;
+}
+.delay{
+	font-size: 14px;
+}
+.right-align{
+	float: right;
+}
+.listed{
+	background: url("image/line-bot.png") no-repeat center bottom;
+	padding: 15px 0 10px 0;
+}
+.listed:first-child{
+	padding-top: 0;
+}
+.listed:last-child{
+	background: none;
+	padding-bottom: 0;
+}
+.price{
+	font-size: 18px;
+}
+
+
+
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit p.ui-li-aside {
+    display: inline;
+    float: right;
+    margin: 0.3em 0;
+    text-align: right;
+    width: 20%;
+}
+
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit div.text div.title h2.ui-li-heading {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit div.text {
+    display: inline;
+    float: left;
+    font-size: 18px;
+    margin-left: 19px;
+    margin-top: -23px;
+    vertical-align: top;
+    width: 69%;
+}
+
+ol.ui-listview .ui-link-inherit:before, ol.ui-listview .ui-li-static:before, .ui-li-dec {
+    content: counter(listnumbering, decimal) ". ";
+    counter-increment: listnumbering;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 0;
+    width: 55px;
+    }
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit {
+
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 16px;
+}
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit div.text div.title {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+div#offers.ui-page div.ui-content ol.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text a.ui-link-inherit div.text img {
+    border-width: 0;
+    margin-top: 1px;
+    position: absolute;
+}
+
+/* ============================== */
+/* = Page My tips css = */
+/* ============================== */
+.image-legend{
+	float: left;
+}
+.image-legend p{
+	margin: 7px 0;
+	margin-right: 0;
+	max-width: 60px;
+	font-size: 11px!important;
+}
+.image-legend .overlay {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/sprite-sports.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.overlay.football {
+	background-position: 0px -175px;
+    background-size: 45px auto;
+}
+.overlay.footballUs {
+    background-position: -2px -96px;
+    background-size: 39px auto;
+}
+.overlay.baseball {
+    background-position: 1px 2px;
+    background-size: 45px auto;
+}
+.overlay.horse {
+    background-position: -11px -254px;
+    background-size: 38px auto;
+}
+.overlay.tennis {
+   background-position: 2px -384px;
+   background-size: 40px auto;
+}
+.overlay.rugby {
+    background-position: -5px -345px;
+    background-size: 42px auto;
+}
+.overlay.hockey {
+    background-position: -1px -213px;
+    background-size: 40px auto;
+}
+.overlay.basketball {
+    background-position: 2px -54px;
+    background-size: 44px auto;
+}
+
+.title{
+	font-size: 18px;
+}
+.green{
+	color: #6ab42c;
+}
+.red{
+	color: #cd4242;
+}
+.inner{
+	display: block;
+	font-size: 13px;
+}
+.inner a{
+	text-decoration: underline;
+	color: #504c49!important;
+}
+.text .cycle {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/cycles.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 6px;
+}
+.cycle.long {
+	background-position: 50% 0px;
+}
+.cycle.medium {
+	background-position: 50% -26px;
+}
+.cycle.short {
+	background-position: 50% -51px;
+}
+.delay{
+	font-size: 14px;
+}
+.right-align{
+	float: right;
+}
+.listed{
+	background: url("image/line-bot.png") no-repeat center bottom;
+	padding: 15px 0 10px 0;
+}
+.listed:first-child{
+	padding-top: 0;
+}
+.listed:last-child{
+	background: none;
+	padding-bottom: 0;
+}
+.text {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+    width: 68%;
+}
+
+ol.ui-listview li.ui-btn {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #eee;
+    color: #222222;
+    font-weight: bold;
+    padding-top: 18px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.previousHeader {
+    background: url("image/back.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    height: 29px;
+    margin: 4px 0 0 3px;
+    width: 39px;
+}
+
+/* ============================== */
+/* =  PAGE HOW IT WORKS = */
+/* ============================== */
+html.ui-mobile body.ui-mobile-viewport div#howitworks.ui-page div#bar {
+    background-color: #504C49;
+    color: white;
+    display: block;
+    font-weight: normal;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    text-shadow: none;
+    -moz-box-shadow: 0px 1px 5px 0px #656565;
+	-webkit-box-shadow: 0px 1px 5px 0px #656565;
+	-o-box-shadow: 0px 1px 5px 0px #656565;
+	box-shadow: 0px 1px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#howitworks div.ui-content h2 p {
+    font-size: 15px;
+    line-height: 45px;
+    text-transform: none;
+    text-align: center;
+}
+#howitworks div.ui-content p {
+    text-transform: none;
+}
+
+#howitworks .blocSlide {
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin: 5px 0;
+}
+#howitworks .bigLetter {
+	font-size: 40px;
+	margin-right: 10px;
+	color:#71bf2b;
+	position: relative;
+	top: 10px;
+	right:4px;
+}
+#sTipster {
+    background-image: url("image/tipster.png");
+    background-position: 50% 35px;
+    background-repeat: no-repeat;
+    background-size: 120px auto;
+}
+.slideTitle{
+	margin-top:-12px;
+}
+.tipsterList{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-top: 85px;
+}
+.tipsterList li {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("image/sprite-sports.png");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 6px;
+    font-size:12px;
+    padding-top: 44px;
+}
+
+.tipsterList li#football {
+	background-position: 15px -165px;
+    background-size: 45px auto;
+}
+.tipsterList li#footballUs {
+    background-position: 18px -97px;
+    background-size: 43px auto;
+}
+.tipsterList li#baseball {
+    background-position: 15px 11px;
+    background-size: 50px auto;
+}
+.tipsterList li#horse {
+    background-position: 21px -283px;
+    background-size: 43px auto;
+}
+.tipsterList li#tennis {
+    background-position: 8px -433px;
+    background-size: 46px auto;
+}
+.tipsterList li#rugby {
+    background-position: 3px -345px;
+    background-size: 43px auto;
+}
+.tipsterList li#hockey {
+    background-position: 5px -218px;
+    background-size: 43px auto;
+}
+.tipsterList li#basketball {
+    background-position: 23px -53px;
+    background-size: 50px auto;
+}
+.flex-control-nav {
+    margin-left: -17px;
+    margin-top: 13px;
+    text-align: center;
+    width: 100%;
+}
+
+#whynot p{
+    text-align: center;
+    font-size: 17px;
+}
+
+#msg {
+	background-image: url('image/msg.png');
+	background-position: 50% 75px;
+    background-repeat: no-repeat;
+    background-size: 161px auto;
+    height:210px;
+    text-align: center;
+}
+#msg p{
+    text-align: center;
+
+}
+
+#bet{
+	background-image: url('image/check.png');
+	background-position: 50% 75px;
+    background-repeat: no-repeat;
+    background-size: 113px auto;	
+    height:210px;
+}
+#bet p{
+    text-align: center;
+
+}
+.btn-green {
+    background: url("image/btn-green.png") repeat-x scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px 0 inset;
+    color: #164502;
+    display: inline-block;
+    height: 40px;
+}
+.ui-body-c .ui-link.btn-green {
+	color:#164502;
+	text-shadow: none;
+    line-height: 41px;
+    padding: 0 15px
+}
+#bet .btn-green {
+	margin-top:138px;
+}
+
+.sliderNext {
+    background: url("image/next.png");
+    background-size: 20px;
+    display: inline-block;
+    height: 24px;
+    left: 53px;
+    margin: 0 0 -3px 6px;
+    position: relative;
+    top: -23px;
+    width: 20px;
+}
+.previousHeader {
+    background: url("image/back.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    height: 29px;
+    margin: 4px 0 0 3px;
+    width: 39px;
+}
+#howitworks .ui-content {
+	clear: both;
+}
+.skip {
+    background: url("image/skip.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    height: 29px;
+    margin: 4px 6px 0 0;
+    width: 39px;
+}
+#footer-slider {
+	height:50px;
+}
+#howitworks .ui-content {
+    padding-bottom:0;
+}
+
+
+
+
+/* ============================== */
+/* = Profit center css = */
+/* ============================== */
+
+root { 
+    display: block;
+}
+
+#tableProfit {
+
+    padding: 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 15px;
+
+}
+
+
+
+#tableProfit th{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+#tableProfit td {
+    padding: 6px;
+    text-align: center;
+       vertical-align: middle;
+}
+
+#tableProfit .profitData{
+    color: #6ab42c;
+}
+#tableProfitScroll {
+
+    padding: 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 270px;
+    font-size: 75%;
+    text-transform: none;
+
+}
+#tableProfitScroll th{
+    padding: 10px;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+
+}
+#tableProfitScroll tr{
+   
+    border-bottom: 1px solid #ccc;
+
+}
+#tableProfitScroll td {
+    padding: 6px;
+    text-align: center;
+    white-space: nowrap;
+        vertical-align: middle;
+}
+
+#tableProfitScroll .profitButton{
+   padding: 0;
+   padding-left: 3px;
+  
+   
+}
+#tableProfitScroll .profitButton span{
+   font-size: 100%;
+   color: #164502;
+   padding: 2px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+#tableProfitScroll .profitButton span.ui-btn-text {
+    top: 0px;
+    text-shadow:none;
+    font-weight: bold;
+}
+#tableProfitScroll .profitData{
+    color: #6cd42c;
+    font-weight: bold;
+}
+#tableProfitScroll .profitDate{
+    color: #cd4242;
+    font-weight: bold;
+}
+
+#tableProfitScroll .profitButton div{
+   background: #75cb2b; /* Old browsers */
+background: -moz-linear-gradient(top, #75cb2b 0%, #98da6a 32%, #72ca23 48%, #71bc2d 50%, #72ca26 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#75cb2b), color-stop(32%,#98da6a), color-stop(48%,#72ca23), color-stop(50%,#71bc2d), color-stop(100%,#72ca26)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #75cb2b 0%,#98da6a 32%,#72ca23 48%,#71bc2d 50%,#72ca26 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #75cb2b 0%,#98da6a 32%,#72ca23 48%,#71bc2d 50%,#72ca26 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #75cb2b 0%,#98da6a 32%,#72ca23 48%,#71bc2d 50%,#72ca26 100%); /* IE10+ */
+background: linear-gradient(to bottom, #75cb2b 0%,#98da6a 32%,#72ca23 48%,#71bc2d 50%,#72ca26 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cb2b', endColorstr='#72ca26',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px 4px 4px 4px;
+}
+
+#profitOptions{
+   
+    text-transform: none;
+    width: 270px;
+    margin: 0 auto;
+    font-size: 14px;
+     margin-top: 17px;
+     margin-bottom: 20px;
+}
+
+#profitOptions span{
+   
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    
+}
+h3{
+    text-align: center;
+}
+
+/* ============================== */
+/* = My cart  = */
+/* ============================== */
+#mycart #articleCartContent{
+    text-transform: none;
+}
+#bar{
+    margin-left: -40px;
+}
+#bar .previousHeader img{
+    display: inline;
+    height: 32px;
+    margin-right: 15px;
+}
+
+#bar div.title{
+    display: inline;
+    vertical-align: text-bottom;
+    font-weight: 500;
+}
+#articleCart{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#articleCart .acticleNumber{
+    color: #6ab42c;
+    display: inline-block;
+    float: left;
+    font-size: 44px;
+    line-height: 40px;
+}
+
+#articleCart .acticleTitle{
+    color: #4b4b4b;
+
+    font-size: 20px;
+}
+
+#thArticle{
+    width: 285px;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative;
+    margin-top:20px;
+    font-size: 14px;
+    
+ 
+}
+
+#thArticle span{
+
+    display: inline-block;
+    width: 140px;
+}
+
+
+
+#detailArticle {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 2px solid #DDDDDD;
+    margin: 20px auto 0;
+    position: relative;
+    width: 97%;
+}
+
+#detailArticle .thDetail {
+    background-color: #F0EDE9;
+    padding: 6px;
+    width: 100%;
+}
+
+
+#detailArticle span{
+
+    display: inline-block;
+    width: 49%;
+  
+}
+
+#detailArticle .optionDetail{
+
+    font-size: 14px;
+    
+}
+
+
+
+#detailArticle .optionDetail span {
+    font-size: 13px;
+    padding: 2px;
+    width: 23%;
+}
+
+#detailArticle span.fermer{
+     background-color: #F0EDE9;
+    border: 1px solid #DDDDDD;
+    margin-right: -3px;
+    padding: 0 0 0 3px;
+    position: absolute;
+    right: 3px;
+    top: -19px;
+    width: 10px;
+}
+#total {
+    margin: 0 auto;
+    text-align: right;
+    text-transform: none;
+    width: 95%;
+}
+#total .price{
+    color: #6ab42c;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+div#mycart.ui-page div#total div.checkoutBtn a.bet-button {
+     margin-left: 151px;
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+    float: right;
+    width: 117px;
+}
+.checkoutBtn span{
+   font-size: 100%;
+   color: #164502;
+   padding: 2px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.checkoutBtn span.ui-btn-text {
+    top: 0px;
+    text-shadow:none;
+    font-weight: bold;
+}
+
+
+/* ============================== */
+/* = Page contact  = */
+/* ============================== */
+
+
+
+ div.image-contact {
+    float: left;
+    padding: 19px 0 5px 13px;
+}
+
+div#contact.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    height: 152px;
+    margin: 0;
+}
+ 
+ 
+ 
+div#contact.ui-page div.ui-content ul.ui-listview li.ui-btn div.ui-btn-inner span.ui-icon {
+    margin-top: 23px;
+    position: absolute;
+    top: 50%;
+}
+
+
+div#contact.ui-page div.ui-content ul.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text {
+    top: 33px;
+}
+
+
+/* ============================== */
+/* = Page contact  = */
+/* ============================== */
+
+
+
+ div.image-help {
+    float: left;
+    padding: 19px 0 5px 13px;
+}
+
+div#help.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    height: 152px;
+    margin: 0;
+}
+ 
+ 
+ 
+div#help.ui-page div.ui-content ul.ui-listview li.ui-btn div.ui-btn-inner span.ui-icon {
+    margin-top: 23px;
+    position: absolute;
+    top: 50%;
+}
+
+
+div#help.ui-page div.ui-content ul.ui-listview li.ui-btn div.ui-btn-inner div.ui-btn-text {
+    top: 33px;
+}
+
+
+
+
+
+/* ============================== */
+/* = Page Setting  = */
+/* ============================== */
+
+
+
+div#settings.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+
+/* ============================== */
+/* = Page Local Settings  = */
+/* ============================== */
+
+
+
+div#local-setting.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+/* ============================== */
+/* = Page My account  = */
+/* ============================== */
+
+
+
+div#my-account.ui-page div.ui-content ul.ui-listview li.ui-btn {
+    background: linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+
+/* ============================== */
+/* = Page payment order  = */
+/* ============================== */
+
+
+
+div#payment-order.ui-page div.ui-content div.container div.total-order {
+    text-align: right;
+    float: right;
+    font-size: 13px;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.ref-order {
+    text-align: left;
+    float: left;
+    font-size: 13px;
+
+}
+
+div#payment-order.ui-page div.ui-content div.container div.total-order span {
+    color: #6AB42C;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.ref-order span {
+    color: #6AB42C;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.ui-field-contain label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 0.3em;
+    width: 90px;
+}
+
+div#payment-order.ui-page div.ui-content div.container div.ui-field-contain input#name.ui-input-text {
+    margin: 0;
+    width: 65%;
+}
+
+ div#payment-order.ui-page div.ui-content div.container div.ui-field-contain input#number.ui-input-text {
+    margin: 0;
+    width: 65%;
+}
+
+div#payment-order.ui-page div.ui-content div.container div.date div.ui-select div.ui-btn {
+    clear: none;
+    float: left;
+    margin-right: 3px;
+    width: 23%;
+}
+
+div#payment-order.ui-page div.ui-content div.container div.date input#date.ui-input-text {
+    float: left;
+    height: 37px;
+    width: 42%;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.login_button a.bet-button {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    box-shadow: 0 1px 4px #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container li.listed {
+    background: url("image/line-bot.png") no-repeat scroll center bottom transparent;
+    height: 61px;
+    list-style: none outside none;
+    margin-bottom: 11px;
+    padding: 15px 0 10px;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.date div.ui-select div.ui-btn {
+    border: 1px solid #AAAAAA;
+    clear: none;
+    float: left;
+    margin-right: 3px;
+    width: 92%;
+}
+
+
+div#payment-order.ui-page div.ui-content div.container div.date div.ui-field-contain label.ui-input-text span a.ui-link {
+    color: #6AB42C;
+    display: block;
+    font-weight: normal;
+}
+
+
+span.ui-btn-text span {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+ div#payment-order.ui-page div.ui-content div.container div.date div.ui-select {
+    clear: none;
+    display: inline;
+    float: left;
+    width: 23%;
+}
+
+
+/* ============================== */
+/* = Page payment method  = */
+/* ============================== */
+
+
+
+
+div#payment-method.ui-page div.ui-content div.container div.tittle-payment {
+    color: #888888;
+    margin: 0 auto;
+    text-align: center;
+    width: 156px;
+}
+
+
+
+
+div#payment-method.ui-page div.ui-content div.container li.listed div.login_button a.bet-button {
+
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+   float: right;
+   }
+   
+   
+div#payment-method.ui-page div.ui-content div.container li.listed div.image-method {
+    float: left;
+    margin-top: 10px;
+}
+
+
+div#payment-method.ui-page div.ui-content div.container li.listed {
+    height: 50px;
+    list-style: none outside none;
+}
+
+
+
+
+/* ============================== */
+/* = Page ptips profile  = */
+/* ============================== */
+
+div#tipsprofile.ui-page div.ui-content ul.listview li.listed div.text span.delay div.checkoutBtn a.bet-button {
+     margin-left: 151px;
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+    float: right;
+    width: 117px;
+}
+
+
+div#tipsprofile.ui-page div.ui-content ul.listview li.listed {
+    background: url("image/line-bot.png") no-repeat scroll center bottom transparent !important;
+    margin-bottom: 19px;
+    padding: 15px 0 11px !important;
+}
+
+#bar {
+    margin-left: 0;
+}
+
+/* ============================== */
+/* = Page Single Offer  = */
+/* ============================== */
+
+
+
+div#display-offers.ui-page div.ui-content div.checkoutBtn a.bet-button {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+    margin-top: 47px;
+    }
+
+
+div#display-offers.ui-page div.ui-content p.ui-li-aside span.price {
+    font-size: 35px;
+}
+
+
+div#display-offers.ui-page div.ui-content p.ui-li-aside span.mois {
+    font-size: 11px;
+}
+
+
+div#display-offers.ui-page div.ui-content li.listed {
+    background: url("image/line-bot.png") no-repeat scroll center bottom transparent;
+    list-style: none outside none;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    padding: 1px 0 30px;
+}
+
+
+
+/* ============================== */
+/* = Page Edit setting  = */
+/* ============================== */
+
+
+
+div#editsetting.ui-page div.ui-content div.page_signup div.ui-field-contain label.ui-input-text {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 5px 0 0.3em;
+    width: 79px;
+}
+
+div#editsetting.ui-page div.ui-content div.page_signup div.ui-field-contain input#email.ui-input-text {
+    width: 65%;
+}
+
+ div#editsetting.ui-page div.ui-content div.page_signup div.ui-field-contain input#password.ui-input-text  {
+    width: 65%;
+}
+
+
+div#editsetting.ui-page div.ui-content div.page_signup div.login_button a.bet-button {
+    background: linear-gradient(#9EE485, #6FC64E) repeat scroll 0 0 #9EE485;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #9EE485 ), to( #6FC64E ));
+    background-image: -webkit-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -moz-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -ms-linear-gradient( #9EE485 , #6FC64E );
+    background-image: -o-linear-gradient( #9EE485 , #6FC64E );
+    background-image: linear-gradient( #9EE485 , #6FC64E ); 
+    border: 1px solid #58AC3E;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: 0 1px 4px #58AC3E;
+    margin-top: 47px;
+    }

@@ -13,6 +13,15 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
             },
             render:function () {
                 this.$el.html(_.template(StartViewTemplate));
+                var input = $('#input_start');
+                var options = {
+                    bounds: defaultBounds,
+                    types: ['geocode '],
+                };
+                autocomplete = new google.maps.places.Autocomplete(input, options);
+                componentRestrictions: {country: 'fr'}
+          
+
 
                 return this;
 

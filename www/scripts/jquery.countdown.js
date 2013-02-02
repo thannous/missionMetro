@@ -12,8 +12,8 @@ jQuery.fn.countdown = function(userOptions)
         stepTime: 60,
         // startTime and format MUST follow the same format.
         // also you cannot specify a format unordered (e.g. hh:ss:mm is wrong)
-        format: "dd:hh:mm:ss",
-        startTime: "01:12:32:55",
+        format: "hh:mm",
+        startTime: "12:32",
         digitImages: 6,
         digitWidth: 53,
         digitHeight: 77,
@@ -57,6 +57,7 @@ jQuery.fn.countdown = function(userOptions)
                         digits[c].__max = (c % 2 == 0) ? 5: 9;
                 }
                 ++c;
+
             }
             else
                 elem = $('<div class="cntSeparator"/>').css({float: 'left'})
@@ -82,10 +83,13 @@ jQuery.fn.countdown = function(userOptions)
         return function _move() {
             mtop = margin(elem) + options.digitHeight;
             if (mtop == options.digitHeight) {
+                console.log("mtop " + options.digitHeight);
+
                 margin(elem, digits[elem]._digitInitial);
                 if (elem > 0) moveStep(elem - 1)();
                 else
                 {
+                    console.log("elem " + elem);
                     clearInterval(interval);
                     for (var i=0; i < digits.length; i++) margin(i, 0);
                     options.timerEnd();

@@ -60,11 +60,23 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                     });
                     google.maps.event.addListener(autocomplete, 'place_changed', function() {
                         place = autocomplete.getPlace();
+                       var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.84327&lona=2.3324&latb=48.80234&lonb=2.51432432");
+                       console.log(detail);
+                        var lat = place.geometry.location.Ya;
+                        var lng = place.geometry.location.Za;
 
-                        var a = JSON.stringify(place);
-                        console.log(a);
+                        var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat"+lat+"&long"+lng );
+
+                        var start = JSON.stringify(place);
+
+                        console.log(place.geometry.location);
+
+
+
                         localStorage.removeItem('start');
-                        localStorage.setItem('start', a);
+                        localStorage.removeItem("startStation", station)
+                        localStorage.setItem("startStation", station)
+                        localStorage.setItem('start', start);
                         $("#nstart").text(place.name);
                         if (place.geometry.viewport) {
                             map.fitBounds(place.geometry.viewport);

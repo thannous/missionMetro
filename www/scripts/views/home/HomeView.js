@@ -30,12 +30,11 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
                 }
                 $('#counter').countdown({
                     stepTime: 60,
-                    format: 'mm:ss',
+                    format: 'hh:mm',
                     startTime: "32:55",
                     digitImages: 6,
                     digitWidth: 53,
                     digitHeight: 77,
-                    timerEnd: function() { alert('end!!'); },
                     image: "img/digits.png"
                 });
                 return this;

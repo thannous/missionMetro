@@ -110,6 +110,6 @@ jQuery.fn.countdown = function(userOptions)
     $.extend(options, userOptions);
     this.css({height: options.digitHeight, overflow: 'hidden'});
     createDigits(this);
-    interval = setInterval(moveStep(digits.length - 1), 1000);
+    interval = setInterval(moveStep(digits.length - 1), 60000);
 };
 

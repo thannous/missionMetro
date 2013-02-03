@@ -13,7 +13,21 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
 
             render:function () {
                 this.$el.html(_.template(HomeViewTemplate));
+                if(localStorage.getItem('start')){
+                     var p = localStorage.getItem('start');
+                    var depart = JSON.parse(p);
+                    var q = localStorage.getItem('end');
+                    var arriver = JSON.parse(q);
+                    console.log(q);
 
+                ;
+                   if (depart){
+
+                    $("#nstart").text(depart.name);
+                    $("#nend").text(arriver.name);
+                   }
+
+                }
                 $('#counter').countdown({
                     stepTime: 60,
                     format: 'mm:ss',

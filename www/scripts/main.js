@@ -19,7 +19,7 @@ require.config({
         jqm:'libs/jquery.mobile/jquery.mobile-1.2.0',
         // jQuery Mobile plugin for Backbone views navigation
         jqmNavigator:'libs/jquery.mobile/jqmNavigator',
-
+        map:'http://maps.googleapis.com/maps/api/js?sensor=true',
         templates: '../templates'
 
 

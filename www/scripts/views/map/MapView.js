@@ -90,7 +90,6 @@ define(['jquery','underscore', 'Backbone', 'text!templates/map/MapView.html'],
                         });
 
                         marker.setMap(map);
-                        marker.setMap(map);
 
                         var bounds = new google.maps.LatLngBounds();
                         bounds.extend(orgn);

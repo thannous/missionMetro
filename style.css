@@ -51,7 +51,6 @@
 	font-weight: bold;
 }
 
-
 .btn-betad {
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 3px 0 inset;
@@ -59,7 +58,7 @@
 	height: 40px;
 	width: 84px;
 	text-align: center;
-	margin:7px auto;
+	margin: 7px auto;
 }
 .ui-body-c .ui-link.btn-betad {
 	text-shadow: none;
@@ -914,7 +913,7 @@ div#signup.ui-page div.ui-content div.phoni p.mtop15 {
 .ui-field-contain, fieldset.ui-field-contain {
     border-width: 0 0 0px;
     margin: 0;
-    overflow: visible;
+    overflow: hidden;
     padding: 7px 0;
 }
 

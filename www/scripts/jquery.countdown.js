@@ -17,7 +17,6 @@ jQuery.fn.countdown = function(userOptions)
         digitImages: 6,
         digitWidth: 53,
         digitHeight: 77,
-        timerEnd: function(){},
         image: "digits.png"
     };
     var digits = [], interval;
@@ -92,7 +91,6 @@ jQuery.fn.countdown = function(userOptions)
                     console.log("elem " + elem);
                     clearInterval(interval);
                     for (var i=0; i < digits.length; i++) margin(i, 0);
-                    options.timerEnd();
                     return;
                 }
                 if ((elem > 0) && (digits[elem].__condmax !== undefined) &&

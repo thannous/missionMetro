@@ -66,16 +66,17 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                         var lng = place.geometry.location.Za;
 
                         var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat"+lat+"&long"+lng );
-
+                        var station = JSON.stringify(station);
                         var start = JSON.stringify(place);
 
                         console.log(place.geometry.location);
 
 
 
+
+                        localStorage.removeItem("startStation");
+                        localStorage.setItem("startStation", station);
                         localStorage.removeItem('start');
-                        localStorage.removeItem("startStation", station)
-                        localStorage.setItem("startStation", station)
                         localStorage.setItem('start', start);
                         $("#nstart").text(place.name);
                         if (place.geometry.viewport) {

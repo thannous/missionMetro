@@ -19,14 +19,18 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
                     var q = localStorage.getItem('end');
                     var arriver = JSON.parse(q);
                     console.log(q);
-
-                ;
+                    var numStationStart = JSON.parse(localStorage.getItem('startStation'));
+                    console.log(numStationStart);
+                    var numStationEnd = JSON.parse(localStorage.getItem('endStation'));
+                    console.log(numStationEnd);
                    if (depart){
 
                     $("#nstart").text(depart.name);
                     $("#nend").text(arriver.name);
-                       $('.iStart').attr('src','img/metro/M_1.png');
-                       $('.iEnd').attr('src','img/metro/M_5.png');
+                       $('.iStart').attr('src','img/metro/M_'+ numStationStart.ligne +'.png');
+                       if(numStationEnd)
+                         $('#Ends').attr('src','img/metro/M_'+ numStationEnd.ligne +'.png');
+
                    }
 
                 }

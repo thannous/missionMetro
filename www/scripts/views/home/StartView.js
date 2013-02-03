@@ -16,11 +16,6 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
             render:function () {
                 this.$el.html(_.template(StartViewTemplate));
 
-
-
-
-
-
                     console.log("hello");
 
                     var options = {
@@ -29,10 +24,6 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                         componentRestrictions: {country: 'fr'}
                     };
                var autocomplete = new google.maps.places.Autocomplete(document.getElementById('input_start'), options);
-
-
-
-
                 var options = { maximumAge: 3000, enableHighAccuracy: true }
                 watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);
                 function onSuccess(position) {
@@ -60,22 +51,26 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                     });
                     google.maps.event.addListener(autocomplete, 'place_changed', function() {
                         place = autocomplete.getPlace();
-                       var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.84327&lona=2.3324&latb=48.80234&lonb=2.51432432");
-                       console.log(detail);
+                      var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.84327&lona=2.3324&latb=48.80234&lonb=2.51432432");
+                      console.log(detail);
                         var lat = place.geometry.location.Ya;
                         var lng = place.geometry.location.Za;
+                        ;
+                        var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat="+lat+"&lon="+lng );
+                        station.done(function(msg) {
+                            test = JSON.parse(msg);
+                            var station1 = JSON.stringify(msg);
 
-                        var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat"+lat+"&long"+lng );
-                        var station = JSON.stringify(station);
+                            $('.iStart').attr('src','img/metro/M_'+ test.ligne +'.png');
+
+                            localStorage.removeItem("startStation");
+                            localStorage.setItem("startStation", station1);
+                            console.log( station1);
+                        });
+                        station.fail(function(jqXHR, textStatus) {
+                            alert( "Request failed: " + textStatus );
+                        });
                         var start = JSON.stringify(place);
-
-                        console.log(place.geometry.location);
-
-
-
-
-                        localStorage.removeItem("startStation");
-                        localStorage.setItem("startStation", station);
                         localStorage.removeItem('start');
                         localStorage.setItem('start', start);
                         $("#nstart").text(place.name);

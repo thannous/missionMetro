@@ -25,6 +25,8 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
 
                     $("#nstart").text(depart.name);
                     $("#nend").text(arriver.name);
+                       $('.iStart').attr('src','img/metro/M_1.png');
+                       $('.iEnd').attr('src','img/metro/M_5.png');
                    }
 
                 }

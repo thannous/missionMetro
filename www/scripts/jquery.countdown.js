@@ -12,8 +12,8 @@ jQuery.fn.countdown = function(userOptions)
         stepTime: 60,
         // startTime and format MUST follow the same format.
         // also you cannot specify a format unordered (e.g. hh:ss:mm is wrong)
-        format: "hh:mm",
-        startTime: "12:32",
+        format: "mm:ss",
+        startTime: "01:00",
         digitImages: 6,
         digitWidth: 53,
         digitHeight: 77,
@@ -110,6 +110,6 @@ jQuery.fn.countdown = function(userOptions)
     $.extend(options, userOptions);
     this.css({height: options.digitHeight, overflow: 'hidden'});
     createDigits(this);
-    interval = setInterval(moveStep(digits.length - 1), 60000);
+    interval = setInterval(moveStep(digits.length - 1), 1000);
 };
 

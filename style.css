@@ -84,7 +84,7 @@
 }
 
 html.ui-mobile body.ui-mobile-viewport div.ui-page div#bar {
-    background-color: #504C49;
+    background-color: #444;
     color: white;
     display: block;
     font-weight: normal;
@@ -421,7 +421,7 @@ table {
 body {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: green;
+    background-color: #4272a4;
     background-image: url("header.jpg");
     background-origin: padding-box;
     background-position: 0 0;

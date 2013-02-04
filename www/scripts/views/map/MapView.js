@@ -17,14 +17,10 @@ define(['jquery','underscore', 'Backbone', 'text!templates/map/MapView.html'],
                 watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);
                 function onSuccess(position) {
                     var element = document.getElementById('geolocation');
-                    element.innerHTML = 'Latitude : ' + position.coords.latitude + '<br/>' +
-                        'Longitude : ' + position.coords.longitude + '<br/>' +
-                        'Altitude : ' + position.coords.altitude + '<br/>' +
-                        'Précision : '               + position.coords.accuracy          + '<br/>' +
+                    element.innerHTML =
 
-                    'Direction : '               + position.coords.heading           + '<br/>' +
-                        'Vitesse : '                 + position.coords.speed             + '<br/>' +
-                    'Date :'            + new Date(position.timestamp)      + '\n';
+                        'Précision : '               + position.coords.accuracy          + ' métre<br/>'
+
                     this.config = {
                         latitude  : position.coords.latitude,
                         longitude : position.coords.longitude,
@@ -45,7 +41,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/map/MapView.html'],
                         title:    this.config.location,
                         animation: google.maps.Animation.DROP
                     });
-                    showDirection("paris", "amiens", map)
+                    showDirection("opera", "creteil", map)
 
                 }
 
@@ -68,7 +64,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/map/MapView.html'],
                     var request = {
                         origin : orgn,
                         destination : dstntn,
-                        travelMode : google.maps.DirectionsTravelMode.WALKING,
+                        travelMode : google.maps.DirectionsTravelMode.TRANSIT,
 
                         region: "fr"
                     };

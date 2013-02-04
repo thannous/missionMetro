@@ -51,7 +51,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                     });
                     google.maps.event.addListener(autocomplete, 'place_changed', function() {
                         place = autocomplete.getPlace();
-                      var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.84327&lona=2.3324&latb=48.80234&lonb=2.51432432");
+                       var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.84327&lona=2.3324&latb=48.80234&lonb=2.51432432");
                       console.log(detail);
                         var lat = place.geometry.location.Ya;
                         var lng = place.geometry.location.Za;

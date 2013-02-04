@@ -134,3 +134,7 @@ ul#list{
 #bTrip{
     margin-top: 7px; line-height: 52px; vertical-align: middle; padding-top: 12px;display: inline;
 }
+
+ #map_canvas{
+     height: 260px!important;
+ }

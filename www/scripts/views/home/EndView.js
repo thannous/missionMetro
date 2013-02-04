@@ -61,7 +61,8 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/EndView.html'],
                         //console.log(detail);
                         var lat = place.geometry.location.Ya;
                         var lng = place.geometry.location.Za;
-
+                        $("#gogo").text("1");
+                        $("#start_alarm").css("background-color", "red");
                         var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat="+lat+"&lon="+lng );
                         station.done(function(msg) {
                             test = JSON.parse(msg);
@@ -72,6 +73,15 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/EndView.html'],
                             localStorage.removeItem("endStation");
                             localStorage.setItem("endStation", station1);
                             console.log( station1);
+                            console.log("$$$$$$$$$$$$$$$$$$$$$$$")
+                            console.log(msg);
+                            var numStationStart = JSON.parse(localStorage.getItem('startStation'));
+                            console.log(numStationStart);
+                            var numStationEnd = (localStorage.getItem('endStation'));
+                            console.log(numStationEnd.ligne);
+                            console.log("$$$$$$$$$$$$$$$$$$$$$$$")
+                            var detail =  $.ajax("http://192.168.2.70:8080/MetroServer/trajet?lata=48.868797683&lona=2.3412326833&latb=48.77974803+&lonb=2.45914426746");
+                            console.log(detail);
                         });
                         station.fail(function(jqXHR, textStatus) {
                             alert( "Request failed: " + textStatus );
@@ -101,6 +111,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/EndView.html'],
                             bounds.extend(latlng);
                             map.fitBounds(bounds);
                             $("#nend").text(place.name);
+
                         }
                     });
 

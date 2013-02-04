@@ -38,8 +38,10 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
                 }
                 $('#counter').countdown({
                     stepTime: 60,
+
                     format: 'hh:mm',
                     startTime: "06:31",
+
                     digitImages: 6,
                     digitWidth: 53,
                     digitHeight: 77,

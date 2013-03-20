@@ -1,11 +1,3 @@
-/**
- * Created by Piotr Walczyszyn (@pwalczyszyn)
- *
- * User: pwalczys
- * Date: 2/16/12
- * Time: 9:20 AM
- */
-
 require.config({
     paths:{
 
@@ -14,14 +6,14 @@ require.config({
         // Backbone.js library
         Backbone:'libs/backbone/backbone-min',
         // jQuery
-        jquery:'libs/jquery/jquery-1.8.2',
+        jquery:'libs/jquery/jquery-1.9.1',
         // jQuery Mobile framework
-        jqm:'libs/jquery.mobile/jquery.mobile-1.2.0',
+        jqm:'libs/jquery.mobile/jquery.mobile-1.3.0',
         // jQuery Mobile plugin for Backbone views navigation
         jqmNavigator:'libs/jquery.mobile/jqmNavigator',
         map:'http://maps.googleapis.com/maps/api/js?sensor=true',
-        templates: '../templates'
-
+        templates: '../templates',
+        moment : "moment.min"
 
     },
     shim:{

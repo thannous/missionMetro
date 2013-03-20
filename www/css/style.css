@@ -71,15 +71,33 @@ ul#list{
     top: 0;
     bottom: 0;
     overflow: hidden;
+    background-color: #fff!important;
 }
 
 #stations {
-    position: relative !important;
-    text-align: center;
+
+    margin-right: -15px; margin-left: -15px;
     padding: 5px 0 5px 0;
     width: 100%;
 }
 
+#listView{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+#listView li{
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    height: 45px;
+    text-emphasis-style: double-circle;
+    width: 450px;
+    text-decoration: none;
+}
+#listView li a{
+ color: #222;
+    text-decoration: none;
+}
 #trip {
     position: relative !important;
     text-align: center;

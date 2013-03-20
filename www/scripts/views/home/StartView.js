@@ -56,7 +56,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                         var lat = place.geometry.location.Ya;
                         var lng = place.geometry.location.Za;
                         ;
-                        var station = $.ajax("http://192.168.2.70:8080/MetroServer/station?lat="+lat+"&lon="+lng );
+                        var station = $.ajax("http://176.31.126.197:8080/metroserver/rest/ws/converting?lat="+lat+"&lon="+lng );
                         station.done(function(msg) {
                             test = JSON.parse(msg);
                             var station1 = JSON.stringify(msg);

@@ -22,9 +22,9 @@ define(['jquery', 'underscore', 'Backbone', 'views/map/MapView','views/home/Star
                     var arriver = JSON.parse(q);
                     console.log(q);
                     var numStationStart = JSON.parse(localStorage.getItem('startStation'));
-                    console.log(numStationStart);
+                   
                     var numStationEnd = JSON.parse(localStorage.getItem('endStation'));
-                    console.log(numStationEnd.ligne);
+                   
                    if (depart){
 
                     $("#nstart").text(depart.name);

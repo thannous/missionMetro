@@ -28,6 +28,7 @@ jQuery.fn.countdown = function(userOptions)
         var c = 0;
         // Iterate each startTime digit, if it is not a digit
         // we'll asume that it's a separator
+        var elem;
         for (var i = 0; i < options.startTime.length; i++)
         {
             if (parseInt(options.startTime[i]) >= 0)
@@ -58,9 +59,12 @@ jQuery.fn.countdown = function(userOptions)
                 }
                 ++c;
             }
-            else
+            else{
+                console.log(options.startTime)
                 elem = $('<div class="cntSeparator"/>').css({float: 'left'})
                     .text(options.startTime[i]);
+            }
+
 
             where.append(elem)
         }

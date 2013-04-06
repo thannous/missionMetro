@@ -16,6 +16,60 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
             render:function () {
                 this.$el.html(_.template(StartViewTemplate));
 
+				var head = $ (".ui-page-active [data-role='header']"),
+					foot = $ (".ui-page-active [data-role='footer']"),
+					headerheight = head.outerHeight ();
+				$.mobile.window.on ("throttledresize", function () {
+					$ ("#start-sorter").height ($.mobile.window.height () - headerheight - 20).css ("top", headerheight + 18);
+				});
+				$ ("#start-sorter").height ($.mobile.window.height () - headerheight - 20).css ("top", headerheight + 18);
+				$.mobile.window.scroll (function (e) {
+					var headTop = $ (window).scrollTop ();
+					if (headTop < headerheight && headTop > 0) {
+						$ ("#start-sorter").css ({
+							"top": headerheight + 15 - headTop,
+							"height": $.mobile.window.height () - headerheight - 20
+						});
+					} else if (headTop >= headerheight && headTop > 0 && parseInt (headTop + $.mobile.window.height ()) < parseInt (foot.offset ().top)) {
+						$ ("#start-sorter").css ({
+							"top": "15px",
+							"height": $.mobile.window.height ()
+						});
+						$ ("#start-sorter li").height ("3.7%");
+					} else if (parseInt (headTop + $.mobile.window.height ()) >= parseInt (foot.offset ().top) && parseInt (headTop + $.mobile.window.height ()) <= parseInt (foot.offset ().top) + foot.height ()) {
+						$ ("#start-sorter").css ({
+							"top": "15px",
+							"height": $.mobile.window.height () - ( parseInt (headTop + $.mobile.window.height ()) - parseInt (foot.offset ().top) + 8 )
+						});
+					} else if (parseInt (headTop + $.mobile.window.height ()) >= parseInt (foot.offset ().top)) {
+						$ ("#start-sorter").css ({
+							"top": "15px"
+						});
+					} else {
+						$ ("#start-sorter").css ("top", headerheight + 15);
+					}
+				});
+				$ ("#start-sorter li").click (function () {
+					console.log ("je click")
+					var top,
+						letter = $ (this).text (),
+						divider = $ ("#start-sortedList").find ("li.ui-li-divider:contains(" + letter + ")");
+					console.log (divider.length)
+					if (divider.length > 0) {
+						top = divider.offset ().top;
+						console.log (top)
+						$.mobile.silentScroll (top);
+					} else {
+						return false;
+					}
+				});
+
+				$ ("#sorter li").hover (function () {
+					$ (this).addClass ("ui-btn-up-b").removeClass ("ui-btn-up-c");
+				}, function () {
+					$ (this).removeClass ("ui-btn-up-b").addClass ("ui-btn-up-c");
+				});
+
                     console.log("hello");
 
                     var options = {
@@ -23,7 +77,7 @@ define(['jquery','underscore', 'Backbone', 'text!templates/home/StartView.html']
                         types: ['geocode'],
                         componentRestrictions: {country: 'fr'}
                     };
-               var autocomplete = new google.maps.places.Autocomplete(document.getElementById('input_start'), options);
+               var autocomplete = new google.maps.places.Autocomplete(document.getElementById('start-input_start'), options);
                 var options = { maximumAge: 3000, enableHighAccuracy: true }
                 watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);
                 function onSuccess(position) {

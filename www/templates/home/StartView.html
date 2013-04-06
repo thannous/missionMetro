@@ -3,11 +3,75 @@
     <h1>Départ</h1>
 </div>
 
-<div data-role="content">
-    <form>
-        <label for="input_start">Adresse de départ</label>
-        <input type="text" id="input_start" autocomplete="off" value="" placeholder="indiquer une adresse" />
-        <button id="validation">valider</button>
+<div data-role="content" id="start-page">
+
+    <fieldset data-role="controlgroup" data-type="horizontal" id="formulaire">
+
+        <input name="searchOption" id="start-station" value="station" checked="checked" type="radio">
+        <label for="start-station">Station</label>
+        <input name="searchOption" id="start-adresse" value="adresse" type="radio">
+        <label for="start-adresse">Adresse</label>
+        <input name="searchOption" id="start-historique" value="historique" type="radio">
+        <label for="start-historique">Historique</label>
+    </fieldset>
+    <form id="start-formMetro">
+        <label for="input_metro_end"/>Metro de depart</label>
+        <input type="text" id="input_metro_end" autocomplete="off" value="" placeholder="indiquer un metro" />
+
+
+        <div id="start-sorter" style="margin-top: 200px">
+            <ul data-role="listview">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li>I</li>
+                <li>J</li>
+                <li>K</li>
+                <li>L</li>
+                <li>M</li>
+                <li>N</li>
+                <li>O</li>
+                <li>P</li>
+                <li>Q</li>
+                <li>R</li>
+                <li>S</li>
+                <li>T</li>
+                <li>U</li>
+                <li>V</li>
+                <li>W</li>
+                <li>X</li>
+                <li>Y</li>
+                <li>Z</li>
+            </ul>
+        </div>
+
+
+        <div class="content-primary">
+
+            <ul  data-icon="false"  data-role='listview' data-inset='true' data-autodividers='true' id='start-sortedList' class='jqm-list'>
+                <li  data-filtertext="bourse"><a href='#'>bourse</a></li>
+                <li  data-filtertext="gare du nord"><a href='#'>gare du nord</a></li>
+                <li  data-filtertext="orleans"><a href='#'>orleans</a></li>
+                <li  data-filtertext="republique"><a href='#'>republique</a></li>
+            </ul>
+
+        </div>
+
+    </form>
+    <form id="start-formAdresse" style="display: none">
+        <label for="input_adresse_end"/>Adresse de depart</label>
+        <input type="text" id="input_adresse_end" autocomplete="off" value="" placeholder="indiquer une adresse" />
+        <button id="start-validation2">valider</button>
+    </form>
+    <form id="start-formHistorique" style="display: none">
+
+        <p>HISTORIQUE</p>
+        <button id="start-validation3">valider</button>
     </form>
     <div id="map_canvas">
     </div>
